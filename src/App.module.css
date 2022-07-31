@@ -8,6 +8,6 @@
 }
 
 .navbarSide {
-    background-image: url('/Users/ahmetoztuzel/Documents/FrontendMentor10/crowdfunding/src/images/image-hero-desktop.jpg');
+    background-image: url('./images/image-hero-desktop.jpg');
     height: 400px;
 }
