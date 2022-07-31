@@ -1,0 +1,76 @@
+.card {
+    position: relative;
+    top: 80px;
+    margin-top: 50px;
+    border: 2px solid rgb(230, 227, 222);
+    border-radius: 10px;
+    width: 88%;
+    left: 6%;
+}
+
+.upperSide {
+    display: flex;
+    margin-top: 24px;
+}
+
+.title {
+    font-size: 20px;
+    position: relative;
+    left: 6%;
+    width: 300px;
+    font-weight: bold;
+}
+
+.dolar {
+    position: relative;
+    margin-left: 140px;
+    color: hsl(176, 50%, 47%);
+    font-weight: 500;
+}
+
+.paragraph {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    line-height: 30px;
+    color: hsl(0, 0%, 56%);;
+}
+
+.lowerSide {
+    display: flex;
+    height: 100px;
+    position: relative;
+    left: 5%;
+}
+
+.lowerSide p {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+}
+
+.lowerSide div {
+    display: flex;
+    width: 100px;
+}
+
+.left {
+    font-size: 30px;
+    display: flex;
+}
+
+
+.button {
+    height: 50px;
+    position: relative;
+    left: 18em;
+    margin-top: 20px;
+    width: 180px;
+    background-color: hsl(176, 50%, 47%);
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}

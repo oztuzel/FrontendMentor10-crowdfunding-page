@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+}
+
+.navbar h1 {
+    color: white;
+    position: relative;
+    left: 15%;
+}
+
+.buttonDiv {
+    display: flex;
+    position: relative;
+    top:20px;
+    left: 60.5%;
+    font-weight:600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.button {
+    padding-left: 20px;
+}

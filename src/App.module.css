@@ -1,0 +1,13 @@
+.app {
+    background-color: rgb(212, 212, 212) ;
+    height: 2400px;
+}
+
+.appGrey {
+    background-color: rgb(149, 147, 147);
+}
+
+.navbarSide {
+    background-image: url('/Users/ahmetoztuzel/Documents/FrontendMentor10/crowdfunding/src/images/image-hero-desktop.jpg');
+    height: 400px;
+}

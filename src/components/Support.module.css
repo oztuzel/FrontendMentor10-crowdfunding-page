@@ -1,0 +1,52 @@
+.supportContainer {
+    background-color: #fff;
+    width: 50%;
+    position: relative;
+    left: 26%;
+    top: -50px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.dolars {
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 5%;
+}
+
+.dolar {
+    margin-left: 30px;
+    width: 25%;
+    border-right: 1px solid rgb(227, 222, 222);
+    height: 70px;
+}
+
+.dolar p {
+    font-size: 15px;
+    color: hsl(0, 0%, 77%);
+    line-height: 2px;
+}
+
+.chartBarInner {
+    display: flex;
+    border: 1px solid rgb(227, 222, 222);
+    width: 80%;
+    position: relative;
+    background-color: aliceblue;
+    left: 8%;
+    top: 2em;
+    height: 10px;
+    border-radius: 10px;
+    z-index: 0 ;
+}
+
+.chartBarFill {
+    background-color: hsl(176, 50%, 47%);
+    display: flex;
+    border: 1px solid rgb(227, 222, 222);
+    left: 8%;
+    top: 2em;
+    z-index: 1;
+    border-radius: 10px;
+}

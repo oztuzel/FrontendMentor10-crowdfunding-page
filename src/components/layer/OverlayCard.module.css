@@ -1,0 +1,187 @@
+
+.card {
+    border: 2px solid hsl(0, 4%, 81%);
+    margin-top: 30px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 40px;
+    border-radius: 10px;
+    
+}
+
+.cardActive {
+    border: 2px solid hsl(176, 50%, 47%) ;
+    margin-top: 30px;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    top: 40px;
+    border-radius: 10px;
+}
+
+
+.inputRadio {
+    position: relative;
+    top: 3em;
+    left: 5%;
+    width: 60px;
+    height: 60px;
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+
+
+.cardUpper {
+    display: flex;
+    position: relative;
+    top: -2em;
+    left: 12%;
+    
+}
+
+
+.cardTitle {
+    position: relative;
+    color: black;
+}
+
+.cardTitle:hover{
+    color: hsl(176, 50%, 47%);
+}
+
+.cardDolar {
+    position: relative;
+    left: 4%;
+    top: 0.4em;
+    color: hsl(176, 50%, 47%);
+    
+}
+
+.cardLeft {
+    color: black;
+    position: absolute;
+    left: 75%;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    font-size: 20px;
+}
+
+.parag {
+    position:relative;
+    width: 90%;
+    left: 5%;
+    top: -40px;
+    line-height: 30px;
+    color: hsl(0, 0%, 48%);
+}
+
+.checkedDiv {
+    display: flex;
+    position: relative;
+}
+
+.continue {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    background-color: hsl(176, 72%, 28%);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    left: 25%;
+    top: -10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.number {
+    position: relative;
+    width: 120px;
+    height: 46px;
+    border-radius: 20px;
+    border: 1px solid black;
+    top: -10px;
+    font-size: 20px;
+    margin-right: 20px;
+    padding-left: 22px;
+}
+
+.number::-webkit-outer-spin-button,
+.number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.enterPledge {
+    position: relative;
+    left: 8%;
+    font-size: 18px;
+    top: -10px;
+}
+
+.inputDiv {
+    position: relative;
+    display: flex;
+    left: 24%;
+}
+
+.dolarIcon {
+    position: relative;
+    left: 10%;
+    font-size: 20px;
+    margin-top: 3px;
+    z-index: 1;
+
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    border: 1px solid black;
+    width:600px ;
+    height: 50%;
+    top: 30%;
+    left: 30%;
+    z-index: 1;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.thanksImg {
+    max-width: 80px;
+    position: relative;
+    left: 42%;
+    top: 20%;
+}
+
+.thanksTitle {
+    position: relative;
+    top: 24%;
+    left: 20%;
+    color: beige;
+}
+
+.thanksPassage {
+    position: relative;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    color: beige;
+}
+
+.thanksButton {
+    position: relative;
+    top: 28%;
+    left: 37%;
+    width: 25%;
+    height: 30px;
+    font-size: 16px;
+    background-color: hsl(176, 50%, 47%);
+    border: none;
+    border-radius: 22px;
+}

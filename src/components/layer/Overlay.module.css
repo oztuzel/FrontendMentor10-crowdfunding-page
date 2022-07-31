@@ -1,0 +1,33 @@
+.overlay {
+    position: absolute;
+    top: 100px;
+    left: 22%;
+    border-radius: 20px;
+    height: 1600px;
+    width: 844px;
+    color: black;
+    background-color: #fff;
+}
+
+.closeImg {
+    position: relative;
+    left: 92%;
+    top: 40px;
+    width: 16px;
+    filter: invert(10%) sepia(1%) saturate(29%) hue-rotate(124deg) brightness(10%) contrast(100%);
+    cursor: pointer;
+}
+
+.title {
+    position: relative;
+    left: 5%;
+    top: 3%;
+    font-size: 26px;
+}
+
+.passage {
+    position: relative;
+    left: 5%;
+    top: 3%;
+    color: hsl(0, 0%, 48%);
+}
